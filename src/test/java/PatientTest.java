@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PatientTest{
 
-    Patient person;
+    Patient patient;
 
     @BeforeAll
     static void beforeAll(){
@@ -19,14 +19,14 @@ class PatientTest{
 
     @BeforeEach
     void beforeEach(){
-        person = new Patient("test","test","test");
+        patient = new Patient("test","test","test");
     }
 
     @Test
     @DisplayName("Test for setter and getter for diagnosis")
     public void testSetterAndGetter(){
-        person.setDiagnosis("test");
-        assertEquals("test",person.getDiagnosis());
+        patient.setDiagnosis("test");
+        assertEquals("test", patient.getDiagnosis());
     }
 
 }
