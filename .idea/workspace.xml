@@ -4,44 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21545e6d-d7dd-42da-9682-45d06104d26d" name="Default Changelist" comment="Oppgave 2: Alle klassene til oppgave to er opprettet uten, noen metoder">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mappeinlevering_1_Hospital.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hospital/Diagnosable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hospital/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hospital/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hospital/GeneralPractitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hospital/Nurse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hospital/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hospital/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hospital/Surgeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DiagnosableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DoctorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GeneralPractitionerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NurseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PatientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SurgeonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Diagnosable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Doctor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GeneralPractitioner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nurse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Patient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Surgeon.java" beforeDir="false" />
+    <list default="true" id="21545e6d-d7dd-42da-9682-45d06104d26d" name="Default Changelist" comment="Changes something in the PatientTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -94,19 +59,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Maven.Mappeinlevering_1_Hospital [clean,test]">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PatientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mappeinlevering_1_Hospital" />
       <option name="PACKAGE_NAME" value="" />
@@ -173,7 +125,8 @@
       <option name="presentableId" value="Default" />
       <updated>1613734772263</updated>
       <workItem from="1613734773358" duration="3976000" />
-      <workItem from="1613738813871" duration="3883000" />
+      <workItem from="1613738813871" duration="4931000" />
+      <workItem from="1613744307692" duration="1136000" />
     </task>
     <task id="LOCAL−00001" summary="initialized local git-repo">
       <created>1613735097876</created>
@@ -187,7 +140,19 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1613736436903</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Oppgave 2: All classes have been made and methods that is going to be part of those classes have been made. More test classes will be added later in the project">
+      <created>1613743274041</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1613743274041</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Changes something in the PatientTest">
+      <created>1613743484805</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1613743484805</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,15 +163,30 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialized local git-repo" />
     <MESSAGE value="Oppgave 2: Alle klassene til oppgave to er opprettet uten, noen metoder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oppgave 2: Alle klassene til oppgave to er opprettet uten, noen metoder" />
+    <MESSAGE value="Oppgave 2: All classes have been made and methods that is going to be part of those classes have been made. More test classes will be added later in the project" />
+    <MESSAGE value="Changes something in the PatientTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes something in the PatientTest" />
   </component>
 </project>
