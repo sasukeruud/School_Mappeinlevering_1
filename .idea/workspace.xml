@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21545e6d-d7dd-42da-9682-45d06104d26d" name="Default Changelist" comment="Changes something in the PatientTest">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hospital/Department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,6 +60,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Maven.Mappeinlevering_1_Hospital [clean,test]">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PatientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mappeinlevering_1_Hospital" />
       <option name="PACKAGE_NAME" value="" />
@@ -126,7 +138,8 @@
       <updated>1613734772263</updated>
       <workItem from="1613734773358" duration="3976000" />
       <workItem from="1613738813871" duration="4931000" />
-      <workItem from="1613744307692" duration="1136000" />
+      <workItem from="1613744307692" duration="2233000" />
+      <workItem from="1613991576533" duration="3228000" />
     </task>
     <task id="LOCAL−00001" summary="initialized local git-repo">
       <created>1613735097876</created>
@@ -152,7 +165,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1613743484805</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Changes something in the PatientTest">
+      <created>1613745808743</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1613745808743</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
