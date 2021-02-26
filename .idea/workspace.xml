@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21545e6d-d7dd-42da-9682-45d06104d26d" name="Default Changelist" comment="Hospital class is created and finished with a test class.&#10;Work on Department is still ongoing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hospital/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hospital/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hospital/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hospital/Hospital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Hospital/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/DepartmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Hospital/HospitalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/HospitalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-    </list>
+    <list default="true" id="21545e6d-d7dd-42da-9682-45d06104d26d" name="Default Changelist" comment="add .gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +187,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1614345719815</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="add .gitignore">
+      <created>1614380432397</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1614380432397</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +231,7 @@
     <MESSAGE value="Department local variables and getters have been made" />
     <MESSAGE value="Test classes for all classes from assigment 2 have been made" />
     <MESSAGE value="Hospital class is created and finished with a test class.&#10;Work on Department is still ongoing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hospital class is created and finished with a test class.&#10;Work on Department is still ongoing" />
+    <MESSAGE value="add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore" />
   </component>
 </project>
