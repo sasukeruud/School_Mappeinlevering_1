@@ -1,7 +1,6 @@
 DoctorTest.class
-EmployeeTest.class
-NurseTest.class
-SurgeonTest.class
-DiagnosableTest.class
+Hospital\EmployeeTest.class
+Hospital\GeneralPractitionerTest.class
+Hospital\SurgeonTest.class
 PatientTest.class
-GeneralPractitionerTest.class
+Hospital\NurseTest.class

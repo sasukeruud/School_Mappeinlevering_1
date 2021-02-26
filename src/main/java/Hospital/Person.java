@@ -6,7 +6,7 @@ package Hospital;
  */
 public abstract class Person {
 
-    //Local variables in the classsss
+    //Local variables in the class
     private String firstName;
     private String lastName;
     private String socialSecurityNumber;
