@@ -2,7 +2,12 @@ package Hospital;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
+/**
+ * @author Robin Ruud Kristensen
+ * Class to create new departments and control what is in a spesific department arrayList
+ */
 public class Department {
 
     private String departmentName;
@@ -19,7 +24,7 @@ public class Department {
             throw new NullPointerException("Department name can't be null");
         }
         else if(departmentName.isBlank()){
-            throw new IllegalArgumentException("Department name ned characters to be made");
+            throw new IllegalArgumentException("Department name need characters to be made");
         }
         else {
             this.departmentName = departmentName;
@@ -59,5 +64,43 @@ public class Department {
      */
     public List<Patient> getPatients() {
         return patients;
+    }
+
+    /**
+     * Method to add a new employee to the employee arrayList
+     * @param employee - the employee object that is going to be added to the employee arrayList
+     */
+    public void addEmployee(Employee employee){
+        this.employees.add(employee);
+    }
+
+    /**
+     * Method to add a new patient to the patient arrayList
+     * @param patient - the patient object that is going to be added to the patient list
+     */
+    public void addPatient(Patient patient){
+        this.patients.add(patient);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Department that = (Department) o;
+        return departmentName.equals(that.departmentName) && Objects.equals(employees, that.employees) && Objects.equals(patients, that.patients);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(departmentName, employees, patients);
+    }
+
+    @Override
+    public String toString() {
+        return "Department{" +
+                "departmentName='" + departmentName + '\'' +
+                ", employees=" + employees +
+                ", patients=" + patients +
+                '}';
     }
 }

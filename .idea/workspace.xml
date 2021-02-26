@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21545e6d-d7dd-42da-9682-45d06104d26d" name="Default Changelist" comment="Test classes for all classes from assigment 2 have been made">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hospital/Hospital.java" afterDir="false" />
+    <list default="true" id="21545e6d-d7dd-42da-9682-45d06104d26d" name="Default Changelist" comment="Hospital class is created and finished with a test class.&#10;Work on Department is still ongoing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Hospital/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hospital/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DiagnosableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/DepartmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DoctorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/HospitalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PatientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/PatientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PatientTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-PatientTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DoctorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PatientTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hospital/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hospital/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Hospital/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/DepartmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Hospital/HospitalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/HospitalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +147,7 @@
       <workItem from="1613734773358" duration="3976000" />
       <workItem from="1613738813871" duration="4931000" />
       <workItem from="1613744307692" duration="2233000" />
-      <workItem from="1613991576533" duration="13014000" />
+      <workItem from="1613991576533" duration="20784000" />
     </task>
     <task id="LOCAL−00001" summary="initialized local git-repo">
       <created>1613735097876</created>
@@ -196,7 +191,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1614341330260</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Hospital class is created and finished with a test class.&#10;Work on Department is still ongoing">
+      <created>1614345719815</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1614345719815</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +234,7 @@
     <MESSAGE value="Changes something in the PatientTest" />
     <MESSAGE value="Department local variables and getters have been made" />
     <MESSAGE value="Test classes for all classes from assigment 2 have been made" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test classes for all classes from assigment 2 have been made" />
+    <MESSAGE value="Hospital class is created and finished with a test class.&#10;Work on Department is still ongoing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hospital class is created and finished with a test class.&#10;Work on Department is still ongoing" />
   </component>
 </project>

@@ -26,9 +26,19 @@ class HospitalTest {
     }
 
     @Test
-    @DisplayName("Test for adding new department")
-    public void testAddDepartment(){
-        hospital.addDepartment("Test");
+    @DisplayName("Test for adding new department if correct")
+    public void testAddDepartmentIfCorrect(){
+        Department test = new Department("Test");
+        hospital.addDepartment(test);
+        assertEquals("Test",hospital.getDepartments().get(0).getDepartmentName());
+        assertNotEquals("feil",hospital.getDepartments().get(0).getDepartmentName());
+    }
+
+    @Test
+    @DisplayName("Test for adding new department if wrong")
+    public void testAddDepartmentIfWrong(){
+        Department test = new Department("Test");
+        hospital.addDepartment(test);
         assertEquals("Test",hospital.getDepartments().get(0).getDepartmentName());
         assertNotEquals("feil",hospital.getDepartments().get(0).getDepartmentName());
     }

@@ -3,6 +3,10 @@ package Hospital;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Robin Ruud Kristensen
+ * Class to create the hospital and make a department arrayList where all the diffrent departments is.
+ */
 public class Hospital {
 
     //Final Name of the hospital
@@ -14,7 +18,15 @@ public class Hospital {
      * @param hospitalName - name of the hospital
      */
     public Hospital(String hospitalName) {
-        this.hospitalName = hospitalName;
+        if(hospitalName == null){
+            throw new NullPointerException("Hospital name can't be set as a null value");
+        }
+        else if(hospitalName.isBlank()){
+            throw new IllegalArgumentException("Hospital name can't be left blank, hospital needs a name");
+        }
+        else {
+            this.hospitalName = hospitalName;
+        }
         this.departments = new ArrayList<>();
     }
 
@@ -36,10 +48,9 @@ public class Hospital {
 
     /**
      * Method to add a new department to the list of departments that already exists
-     * @param departmentName - name of the new department
+     * @param department - name of the new department
      */
-    public void addDepartment(String departmentName){
-        Department department = new Department(departmentName);
+    public void addDepartment(Department department){
         this.departments.add(department);
     }
 
