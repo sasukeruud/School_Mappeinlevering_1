@@ -1,13 +1,14 @@
 package Hospital;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Department {
 
     private String departmentName;
-    private Map<String, Employee> employees;
-    private Map<String, Patient> patients;
+    private List<Employee> employees;
+    private List<Patient> patients;
+    //private Map<String, Employee> employees;
 
     /**
      * Constructor for department
@@ -17,12 +18,15 @@ public class Department {
         if (departmentName == null){
             throw new NullPointerException("Department name can't be null");
         }
+        else if(departmentName.isBlank()){
+            throw new IllegalArgumentException("Department name ned characters to be made");
+        }
         else {
             this.departmentName = departmentName;
         }
 
-        this.employees = new HashMap<>();
-        this.patients = new HashMap<>();
+        this.employees = new ArrayList<>();
+        this.patients = new ArrayList<>();
     }
 
     /**
@@ -45,7 +49,7 @@ public class Department {
      * Method to get the HashMap of employees
      * @return returns the HashMap employees
      */
-    public Map<String, Employee> getEmployees() {
+    public List<Employee> getEmployees() {
         return employees;
     }
 
@@ -53,7 +57,7 @@ public class Department {
      * Method to get the HashMap of patients
      * @return returns the HashMap patients
      */
-    public Map<String, Patient> getPatients() {
+    public List<Patient> getPatients() {
         return patients;
     }
 }

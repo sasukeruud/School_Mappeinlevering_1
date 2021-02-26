@@ -4,35 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21545e6d-d7dd-42da-9682-45d06104d26d" name="Default Changelist" comment="Department local variables and getters have been made">
+    <list default="true" id="21545e6d-d7dd-42da-9682-45d06104d26d" name="Default Changelist" comment="Test classes for all classes from assigment 2 have been made">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hospital/Hospital.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hospital/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hospital/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DiagnosableTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/EmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GeneralPractitionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/GeneralPractitionerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NurseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/NurseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PatientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PatientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SurgeonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/SurgeonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Diagnosable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Doctor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GeneralPractitioner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Nurse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Patient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Surgeon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hospital/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hospital/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DiagnosableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/DepartmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DoctorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/HospitalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PatientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/PatientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PatientTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/PatientTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-PatientTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-PatientTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DiagnosableTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/EmployeeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GeneralPractitionerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/NurseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PatientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PatientTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SurgeonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PatientTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-PatientTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DoctorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PatientTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +51,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/Hospital" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/Hospital" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -100,17 +86,17 @@
     </configuration>
     <configuration name="PatientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mappeinlevering_1_Hospital" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PatientTest" />
+      <option name="PACKAGE_NAME" value="Hospital" />
+      <option name="MAIN_CLASS_NAME" value="Hospital.PatientTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="PatientTest.testSetterAndGetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mappeinlevering_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PatientTest" />
+      <module name="Mappeinlevering_1_Hospital" />
+      <option name="PACKAGE_NAME" value="Hospital" />
+      <option name="MAIN_CLASS_NAME" value="Hospital.PatientTest" />
       <option name="METHOD_NAME" value="testSetterAndGetter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -166,7 +152,7 @@
       <workItem from="1613734773358" duration="3976000" />
       <workItem from="1613738813871" duration="4931000" />
       <workItem from="1613744307692" duration="2233000" />
-      <workItem from="1613991576533" duration="8622000" />
+      <workItem from="1613991576533" duration="13014000" />
     </task>
     <task id="LOCAL−00001" summary="initialized local git-repo">
       <created>1613735097876</created>
@@ -204,7 +190,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1614177874909</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Test classes for all classes from assigment 2 have been made">
+      <created>1614341330260</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1614341330260</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +232,7 @@
     <MESSAGE value="Oppgave 2: All classes have been made and methods that is going to be part of those classes have been made. More test classes will be added later in the project" />
     <MESSAGE value="Changes something in the PatientTest" />
     <MESSAGE value="Department local variables and getters have been made" />
-    <option name="LAST_COMMIT_MESSAGE" value="Department local variables and getters have been made" />
+    <MESSAGE value="Test classes for all classes from assigment 2 have been made" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test classes for all classes from assigment 2 have been made" />
   </component>
 </project>
