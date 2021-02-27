@@ -82,12 +82,35 @@ public class Department {
         this.patients.add(patient);
     }
 
+    /**
+     * Method to remove ether a patient or an employee from there respective arrayList.
+     *
+     * The first part of the method does is to check if person is an instanceof of the class patient or not, if it is then it
+     * will check if the arrayList have the same object inn it. If not then it will not delete anything and return an
+     * exception messages.
+     * The second part will do the same but for employee class, and if neither of those instanceof is true it will
+     * automatically throw an exception to the user telling him that the user doesn't exist.
+     *
+     * @param person - the object that is going to be removed from the arrayList.
+     * @throws RemoveException - An exception that can happen if the person you are trying to delete is not in any of
+     * the arrayList.
+     */
     public void remove(Person person) throws RemoveException {
-        if(patients.contains(person)) {
-            this.patients.remove(person);
+        if(person instanceof Patient){
+            if(patients.contains(person)) {
+                this.patients.remove(person);
+            }
+            else {
+                throw new RemoveException("The patient you tried to deleted doesn't exist in any list in the hospital");
+            }
         }
-        else if(employees.contains(person)) {
-            this.employees.remove(person);
+        else if(person instanceof Employee) {
+            if(employees.contains(person)) {
+                this.employees.remove(person);
+            }
+            else {
+                throw new RemoveException("The employee you tried to deleted doesn't exist in any list in the hospital");
+            }
         }
         else {
             throw new RemoveException("The person you tried to deleted doesn't exist in any list in the hospital");
@@ -99,7 +122,8 @@ public class Department {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Department that = (Department) o;
-        return departmentName.equals(that.departmentName) && Objects.equals(employees, that.employees) && Objects.equals(patients, that.patients);
+        return departmentName.equals(that.departmentName) && Objects.equals(employees, that.employees) &&
+                Objects.equals(patients, that.patients);
     }
 
     @Override

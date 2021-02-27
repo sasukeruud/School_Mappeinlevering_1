@@ -13,6 +13,9 @@ class DepartmentTest {
     Patient patient2;
     Patient patient3;
     Patient patient4;
+    Surgeon surgeon1;
+    Nurse nurse1;
+    GeneralPractitioner generalPractitioner1;
 
     @BeforeAll
     static void beforeAll(){
@@ -35,12 +38,19 @@ class DepartmentTest {
         patient2 = new Patient("test","test","test");
         patient3 = new Patient("test","test","test");
         patient4 = new Patient("test","test","test");
+        surgeon1 = new Surgeon("test","test","test");
+        nurse1 = new Nurse("test","test","test");
+        generalPractitioner1 = new GeneralPractitioner("test","test",
+                "test");
         department.addPatient(patient1);
         department.addPatient(patient2);
         department.addPatient(patient3);
         department.addPatient(patient4);
         department.addEmployee(employee1);
         department.addEmployee(employee2);
+        department.addEmployee(surgeon1);
+        department.addEmployee(nurse1);
+        department.addEmployee(generalPractitioner1);
     }
 
     @AfterEach
@@ -108,30 +118,28 @@ class DepartmentTest {
     @Test
     @DisplayName("Test for remove method in department for employee if the employee exist")
     public void testRemoveForEmployeesIfExists() {
-        assertEquals(2,department.getEmployees().size());
+        assertEquals(5,department.getEmployees().size());
         try {
             department.remove(employee1);
         }
         catch (RemoveException e){
             System.out.println(e.getMessage());
         }
-        assertEquals(1,department.getEmployees().size());
-        assertEquals(4,department.getPatients().size());
+        assertEquals(4,department.getEmployees().size());
     }
 
     @Test
     @DisplayName("Test for remove method in department for employee if the employee doesn't exist")
     public void testRemoveForEmployeesNotExists() {
         Employee employee3 = new Employee("test","test","test");
-        assertEquals(2,department.getEmployees().size());
+        assertEquals(5,department.getEmployees().size());
         try {
             department.remove(employee3);
         }
         catch (RemoveException e){
             System.out.println(e.getMessage());
         }
-        assertEquals(2,department.getEmployees().size());
-        assertEquals(4,department.getPatients().size());
+        assertEquals(5,department.getEmployees().size());
     }
 
     @Test
@@ -145,7 +153,6 @@ class DepartmentTest {
             System.out.println(e.getMessage());
         }
         assertEquals(3,department.getPatients().size());
-        assertEquals(2,department.getEmployees().size());
     }
 
     @Test
@@ -160,7 +167,6 @@ class DepartmentTest {
             System.out.println(e.getMessage());
         }
         assertEquals(4,department.getPatients().size());
-        assertEquals(2,department.getEmployees().size());
     }
 
     @Test
@@ -174,8 +180,111 @@ class DepartmentTest {
         catch (RemoveException e){
             System.out.println(e.getMessage());
         }
-        assertEquals(1,department.getEmployees().size());
+        assertEquals(4,department.getEmployees().size());
         assertEquals(2,department.getPatients().size());
     }
 
+    @Test
+    @DisplayName("Test for adding an object of surgeon class to the employee arrayList")
+    public void testAddEmployeeOfClassTypeSurgeon(){
+        Surgeon surgeon = new Surgeon("test","test","test");
+        department.addEmployee(surgeon);
+        assertEquals(6,department.getEmployees().size());
+    }
+
+    @Test
+    @DisplayName("Test for adding an object of nurse class to the employee arrayList")
+    public void testAddEmployeeOfClassTypeNurse(){
+        Nurse nurse = new Nurse("test","test","test");
+        department.addEmployee(nurse);
+        assertEquals(6,department.getEmployees().size());
+    }
+
+    @Test
+    @DisplayName("Test for adding an object of GeneralPractitioner class to the employee arrayList")
+    public void testAddEmployeeOfClassTypeGeneralPractitioner(){
+        GeneralPractitioner generalPractitioner = new GeneralPractitioner("test","test",
+                "test");
+        department.addEmployee(generalPractitioner);
+        assertEquals(6,department.getEmployees().size());
+    }
+
+    @Test
+    @DisplayName("Test for remove if the employee is of the class Surgeon")
+    public void testRemoveIfEmployeeIsSurgeon(){
+        try {
+            department.remove(surgeon1);
+        }
+        catch (RemoveException e){
+            System.out.println(e.getMessage());
+        }
+        assertEquals(4,department.getEmployees().size());
+    }
+
+    @Test
+    @DisplayName("Test for remove if the employee is of the class Nurse")
+    public void testRemoveIfEmployeeIsNurse(){
+        try {
+            department.remove(nurse1);
+        }
+        catch (RemoveException e){
+            System.out.println(e.getMessage());
+        }
+        assertEquals(4,department.getEmployees().size());
+    }
+
+    @Test
+    @DisplayName("Test for remove if the employee is of the class GeneralPractitioner")
+    public void testRemoveIfEmployeeIsGeneralPractitioner(){
+        try {
+            department.remove(generalPractitioner1);
+        }
+        catch (RemoveException e){
+            System.out.println(e.getMessage());
+        }
+        assertEquals(4,department.getEmployees().size());
+    }
+
+    @Test
+    @DisplayName("Test for remove method in department for employee if the surgeon doesn't exist")
+    public void testRemoveForSurgeonNotExists() {
+        Surgeon surgeon = new Surgeon("test","test","test");
+        assertEquals(5,department.getEmployees().size());
+        try {
+            department.remove(surgeon);
+        }
+        catch (RemoveException e){
+            System.out.println(e.getMessage());
+        }
+        assertEquals(5,department.getEmployees().size());
+    }
+
+    @Test
+    @DisplayName("Test for remove method in department for employee if the nurse doesn't exist")
+    public void testRemoveForNurseNotExists() {
+        Nurse nurse = new Nurse("test","test","test");
+        assertEquals(5,department.getEmployees().size());
+        try {
+            department.remove(nurse);
+        }
+        catch (RemoveException e){
+            System.out.println(e.getMessage());
+        }
+        assertEquals(5,department.getEmployees().size());
+    }
+
+    @Test
+    @DisplayName("Test for remove method in department for employee if the generalPractitioner doesn't exist")
+    public void testRemoveForGeneralPractitionerNotExists() {
+        GeneralPractitioner generalPractitioner = new GeneralPractitioner("test","test",
+                "test");
+        assertEquals(5,department.getEmployees().size());
+        try {
+            department.remove(generalPractitioner);
+        }
+        catch (RemoveException e){
+            System.out.println(e.getMessage());
+        }
+        assertEquals(5,department.getEmployees().size());
+    }
 }

@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21545e6d-d7dd-42da-9682-45d06104d26d" name="Default Changelist" comment="assigment 3 finished">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hospital/RemoveException.java" afterDir="false" />
+    <list default="true" id="21545e6d-d7dd-42da-9682-45d06104d26d" name="Default Changelist" comment="remove method in Department made with tests to check if working. More tests is going to be implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Hospital/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hospital/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hospital/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hospital/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hospital/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hospital/Patient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Hospital/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/DepartmentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +81,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mappeinlevering_1_Hospital" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hospital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Hospital" />
+      <option name="MAIN_CLASS_NAME" value="Hospital.DepartmentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentTest.testRemoveForEmployeesIfExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mappeinlevering_1_Hospital" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hospital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Hospital" />
+      <option name="MAIN_CLASS_NAME" value="Hospital.DepartmentTest" />
+      <option name="METHOD_NAME" value="testRemoveForEmployeesIfExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DepartmentTest.testRemoveTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mappeinlevering_1_Hospital" />
       <extension name="coverage">
@@ -150,9 +178,13 @@
       <item itemvalue="JUnit.PatientTest.testSetterAndGetter" />
       <item itemvalue="Maven.Mappeinlevering_1_Hospital [clean,test]" />
       <item itemvalue="JUnit.DepartmentTest.testRemoveTrue" />
+      <item itemvalue="JUnit.DepartmentTest" />
+      <item itemvalue="JUnit.DepartmentTest.testRemoveForEmployeesIfExists" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DepartmentTest" />
+        <item itemvalue="JUnit.DepartmentTest.testRemoveForEmployeesIfExists" />
         <item itemvalue="JUnit.DepartmentTest.testRemoveTrue" />
         <item itemvalue="JUnit.PatientTest.testSetterAndGetter" />
         <item itemvalue="JUnit.PatientTest" />
@@ -232,7 +264,13 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1614380728954</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="remove method in Department made with tests to check if working. More tests is going to be implemented">
+      <created>1614385661024</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1614385661024</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +310,7 @@
     <MESSAGE value="Hospital class is created and finished with a test class.&#10;Work on Department is still ongoing" />
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="assigment 3 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="assigment 3 finished" />
+    <MESSAGE value="remove method in Department made with tests to check if working. More tests is going to be implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove method in Department made with tests to check if working. More tests is going to be implemented" />
   </component>
 </project>
