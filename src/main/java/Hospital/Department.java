@@ -11,8 +11,8 @@ import java.util.Objects;
 public class Department {
 
     private String departmentName;
-    private List<Employee> employees;
-    private List<Patient> patients;
+    private final List<Employee> employees;
+    private final List<Patient> patients;
     //private Map<String, Employee> employees;
 
     /**
@@ -80,6 +80,18 @@ public class Department {
      */
     public void addPatient(Patient patient){
         this.patients.add(patient);
+    }
+
+    public void remove(Person person) throws RemoveException {
+        if(patients.contains(person)) {
+            this.patients.remove(person);
+        }
+        else if(employees.contains(person)) {
+            this.employees.remove(person);
+        }
+        else {
+            throw new RemoveException("The person you tried to deleted doesn't exist in any list in the hospital");
+        }
     }
 
     @Override

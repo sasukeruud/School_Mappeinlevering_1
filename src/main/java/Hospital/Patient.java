@@ -15,7 +15,7 @@ public class Patient extends Person implements Diagnosable{
      * @param lastName - last name of the patient
      * @param socialSecurityNumber - social security number of the patient
      */
-    public Patient(String firstName, String lastName, String socialSecurityNumber) {
+    protected Patient(String firstName, String lastName, String socialSecurityNumber) {
         super(firstName, lastName, socialSecurityNumber);
     }
 
@@ -28,7 +28,7 @@ public class Patient extends Person implements Diagnosable{
      * Method to get what the diagnosis is
      * @return returns the diagnosis on the patient
      */
-    public String getDiagnosis() {
+    protected String getDiagnosis() {
         return diagnosis;
     }
 

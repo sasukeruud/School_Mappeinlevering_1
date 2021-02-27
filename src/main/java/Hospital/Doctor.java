@@ -12,7 +12,7 @@ public abstract class Doctor extends Employee{
      * @param lastName - last name of the doctor
      * @param socialSecurityNumber - social security number of the doctor
      */
-    public Doctor(String firstName, String lastName, String socialSecurityNumber) {
+    protected Doctor(String firstName, String lastName, String socialSecurityNumber) {
         super(firstName, lastName, socialSecurityNumber);
     }
 
