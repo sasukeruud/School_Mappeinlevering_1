@@ -38,7 +38,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass></mainClass>
+                    <mainClass>Hospital.HospitalClient</mainClass>
                 </configuration>
             </plugin>
         </plugins>

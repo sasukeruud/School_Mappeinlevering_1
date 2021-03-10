@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21545e6d-d7dd-42da-9682-45d06104d26d" name="Default Changelist" comment="remove method in Department made with tests to check if working. More tests is going to be implemented">
+    <list default="true" id="21545e6d-d7dd-42da-9682-45d06104d26d" name="Default Changelist" comment="remove method changes to use instanceof to check the class type. All tests to check remove have been writen">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hospital/HospitalClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hospital/HospitalTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Hospital/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hospital/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Hospital/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hospital/DepartmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hospital/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hospital/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hospital/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hospital/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +54,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/Hospital" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -69,18 +79,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Mappeinlevering_1_Hospital [clean,test]">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Maven.Mappeinlevering_1_Hospital [clean,test...]">
     <configuration name="DepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mappeinlevering_1_Hospital" />
       <extension name="coverage">
@@ -147,7 +146,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mappeinlevering_1_Hospital [clean,test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+    <configuration name="Mappeinlevering_1_Hospital [clean,test...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+                <option value="compile" />
+                <option value="install" />
+                <option value="exec:java" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -176,10 +204,11 @@
     <list>
       <item itemvalue="JUnit.PatientTest" />
       <item itemvalue="JUnit.PatientTest.testSetterAndGetter" />
-      <item itemvalue="Maven.Mappeinlevering_1_Hospital [clean,test]" />
       <item itemvalue="JUnit.DepartmentTest.testRemoveTrue" />
       <item itemvalue="JUnit.DepartmentTest" />
       <item itemvalue="JUnit.DepartmentTest.testRemoveForEmployeesIfExists" />
+      <item itemvalue="Maven.Testing" />
+      <item itemvalue="Maven.Mappeinlevering_1_Hospital [clean,test...]" />
     </list>
     <recent_temporary>
       <list>
@@ -203,6 +232,10 @@
       <workItem from="1613738813871" duration="4931000" />
       <workItem from="1613744307692" duration="2233000" />
       <workItem from="1613991576533" duration="20784000" />
+      <workItem from="1614600596715" duration="2657000" />
+      <workItem from="1614786026724" duration="626000" />
+      <workItem from="1615069839530" duration="2948000" />
+      <workItem from="1615296259259" duration="634000" />
     </task>
     <task id="LOCAL−00001" summary="initialized local git-repo">
       <created>1613735097876</created>
@@ -270,7 +303,13 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1614385661024</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="remove method changes to use instanceof to check the class type. All tests to check remove have been writen">
+      <created>1614426285786</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1614426285786</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +350,7 @@
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="assigment 3 finished" />
     <MESSAGE value="remove method in Department made with tests to check if working. More tests is going to be implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove method in Department made with tests to check if working. More tests is going to be implemented" />
+    <MESSAGE value="remove method changes to use instanceof to check the class type. All tests to check remove have been writen" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove method changes to use instanceof to check the class type. All tests to check remove have been writen" />
   </component>
 </project>

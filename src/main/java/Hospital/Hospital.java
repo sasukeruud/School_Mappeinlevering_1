@@ -51,7 +51,12 @@ public class Hospital {
      * @param department - name of the new department
      */
     public void addDepartment(Department department){
-        this.departments.add(department);
+        if (departments.contains(department)){
+            System.out.println("Department exist from before");
+        }
+        else {
+            this.departments.add(department);
+        }
     }
 
     @Override

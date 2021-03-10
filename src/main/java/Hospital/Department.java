@@ -13,7 +13,6 @@ public class Department {
     private String departmentName;
     private final List<Employee> employees;
     private final List<Patient> patients;
-    //private Map<String, Employee> employees;
 
     /**
      * Constructor for department

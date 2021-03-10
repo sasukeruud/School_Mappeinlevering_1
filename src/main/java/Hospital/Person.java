@@ -36,8 +36,8 @@ public abstract class Person {
         }
         //Checks if there is a null value entered in the social security number
         if (socialSecurityNumber == null){
-            throw new NullPointerException("No social Security Number was entered for the new person that was going to " +
-                    "be implemented");
+            throw new NullPointerException("No social Security Number was entered for the new person that was going to"
+                    + " be implemented");
         }
         else {
             this.socialSecurityNumber = socialSecurityNumber;
